@@ -1,12 +1,11 @@
 #content {
 	width: 960px;
-	margin: 0 auto 0 auto;
-
+	margin: 0 auto;
 }
 body {
-	background-image: url(assets/images/45degree_fabric.png);
+	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+background-image: url(../images/45degree_fabric.png);
 }
 
 header {
@@ -20,7 +19,7 @@ header {
 }
 nav {
 	height: 80px;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	width: 40%;
 	float: right;
@@ -30,10 +29,19 @@ section {
 	float: left;
 	width: 650px;
 	border: 1px solid #dddddd;
+	background: #ffffff;
+	
+}
+
+#background {
+	
 }
 aside {
-	width: 270px;
+	width: 270px;s
 	border: 1px solid #dddddd;
+	background: #ffffff;
+	height: 200px;
+	float: right;
 
 }
 
@@ -42,6 +50,7 @@ footer {
 	background: #666666;
 	font-size: 16px;
 	text-align: center;
+	border-top: 5px solid #4aaaa5;
 
 }
 
@@ -49,6 +58,7 @@ footer {
 .teal {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #dddddd;
 }
 
 .nav2 {
@@ -76,10 +86,21 @@ ul {
 .nav2:last-child {
     border-right: none;
 
-} 
+}
+
 .icons {
-	display: inline;
-	border-top: 1px solid #dddddd;
+	
+	
 	width: 40px;
 	height: 40px;
+}
+.connect {
+	display: inline;
+	
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
