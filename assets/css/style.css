@@ -8,8 +8,30 @@
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 50px;
-
+	padding-bottom: 50px;
 }
+
+.absolute {
+	
+	background:  #4aaaa5;
+	position: absolute;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	left: 20px;
+	bottom: 40px;
+	float: left;
+	
+}
+
+.relative {
+	
+	position: relative;
+	margin-bottom: 20px;
+	float: left;
+}
+	
+
 body {
 	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -41,8 +63,20 @@ section {
 	background: #ffffff;
 	
 }
+
+form {
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	color: #777777;
+	line-height: 2;
+
+
+}
 p {
 	padding: 20px;
+	color: #777777
 	
 }
 aside {
@@ -72,6 +106,7 @@ footer {
 	border-bottom: 2px solid #dddddd;
 	padding-left: 20px;
 	padding-bottom: 20px;
+
 }
 
 .aside {
@@ -80,19 +115,21 @@ footer {
 	border-bottom: 2px solid #dddddd;
 	text-align: center;
 	padding-bottom: 20px;
+
 }
 
 .nav2 {
 	display: inline;
-	border-right: 1px solid #dddddd;
+	border-right: 1px solid #777777;
 	padding-right: 10px;
+
 
 
 }
 
 .nav2 a {
 	text-decoration: none;
-	color: #dddddd;
+	color: #777777;
 
 }
 
@@ -134,3 +171,21 @@ ul {
 	float: left;
 	padding: 20px;
 }
+
+ input {
+   width: 600px;
+   height: 25px;
+
+ }
+.submit {
+	width: 100px;
+	height: 30px;
+	background: #777777;
+ }
+
+ .portfolio-image {
+ 	width: 250px;
+ 	padding: 20px;
+
+
+ }
