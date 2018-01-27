@@ -27,12 +27,13 @@ body {
 	position: absolute;
 	height: 50px;
 	text-align: center;
-	width: 250px;
-	left: 20px;
-	bottom: 40px;
+	width: 275px;
+	left: 25px;
+	bottom: 25px;
 	float: left;
 	padding-top: 10px;
 	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	
 }
 
@@ -54,6 +55,8 @@ header {
 	width: 300px;
 	padding-top: 25px;
 	float: left;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 nav {
 	height: 80px;
@@ -112,7 +115,7 @@ footer {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	border-bottom: 2px solid #dddddd;
-	padding-left: 20px;
+	padding-left: 25px;
 	padding-bottom: 20px;
 
 }
@@ -192,8 +195,8 @@ ul {
  }
 
  .portfolio-image {
- 	width: 250px;
- 	padding: 20px;
+ 	width: 275px;
+ 	padding: 25px;
 
 
  }
