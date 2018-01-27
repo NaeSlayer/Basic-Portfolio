@@ -1,6 +1,15 @@
-#content  {
+body {
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/45degree_fabric.png);
+}
+
+
+
+#content1  {
 	width: 960px;
 	margin: 0 auto;
+	background-image: none;
 	background: #ffffff;
 
 }
@@ -14,6 +23,7 @@
 .absolute {
 	
 	background:  #4aaaa5;
+	color: #ffffff;
 	position: absolute;
 	height: 50px;
 	text-align: center;
@@ -21,6 +31,8 @@
 	left: 20px;
 	bottom: 40px;
 	float: left;
+	padding-top: 10px;
+	font-size: 24px;
 	
 }
 
@@ -32,11 +44,7 @@
 }
 	
 
-body {
-	
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url(../images/45degree_fabric.png);
-}
+
 
 header {
 	height: 80px;
@@ -80,7 +88,7 @@ p {
 	
 }
 aside {
-	width: 270px;s
+	width: 270px;
 	border: 1px solid #dddddd;
 	background: #ffffff;
 	height: 200px;
